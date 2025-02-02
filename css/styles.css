@@ -82,7 +82,6 @@ body {
   font-family: 'Roboto', serif;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
   letter-spacing: 2%;
   text-align: center;
   line-height: 1.07;
@@ -90,8 +89,6 @@ body {
 }
 .blue-header {
   background-color: #2e2f42;
-  width: 100%;
-  height: 600px;
 }
 .order-btn {
   color: #ffffff;
@@ -102,13 +99,13 @@ body {
   letter-spacing: 0.04em;
   text-decoration: none;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
+
   text-align: center;
-  display: block;
+
   margin: 48px auto 0;
   cursor: pointer;
 }
+.order-btn:hover,
 .order-btn:focus {
   background-color: #404bbf;
 }
@@ -151,10 +148,11 @@ body {
 .team-section {
   background-color: #f4f4fd;
 }
+.team-item {
+  background-color: #ffffff;
+}
 .footer-wrapper {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 .footer-text {
   text-decoration: none;
@@ -166,6 +164,7 @@ body {
   line-height: 1.5;
   letter-spacing: 2%;
   text-align: left;
+  letter-spacing: 0.02em;
 }
 .logo-studio-footer {
   color: #f4f4fd;
